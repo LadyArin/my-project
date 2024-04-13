@@ -61,7 +61,7 @@ button {
 
 .btn-reset {
   border: none;
-  background: #f2f2f2;
+  background: #E9E9DB;
   border-radius: 40px;
   font-size: 12px;
   line-height: 18px;
@@ -134,14 +134,31 @@ a {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 100%;
+  max-width: 1250px;
 }
 
 .header {
-  background-color: #599d2e;
+  background-color: #E9E9DB;
 }
 
 .navigation {
   padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 975px;
+  margin-left: auto;
+}
+.navigation__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
