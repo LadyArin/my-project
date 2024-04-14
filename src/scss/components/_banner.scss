@@ -1,0 +1,24 @@
+.main-banner{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    &__img-text-top{
+        position: absolute;
+        top: 30px;
+        left: 260px;
+    }
+
+    &__img-text-down{
+        position: absolute;
+        bottom: 130px;
+        right: -1px;
+    }
+
+    &__img-left{
+        position: absolute;
+        top: -50px;
+        left: -135px;
+    }
+}
+

@@ -1,0 +1,64 @@
+
+.section-2{
+
+    &__block{
+        margin-top: 100px;
+    }
+        &__title{
+            position: relative;
+            z-index: 2;
+        }
+
+        &__content{
+            display: flex;
+        }
+
+        &__text{
+            width: 40%;
+            margin-top: 40px;
+            padding-left: 10px;
+            h2{
+            margin-bottom: 15px;
+            }
+
+            p{
+                max-width: 80%;
+                font-size: 0.8rem;
+                line-height: 1rem;
+                
+                &:not(:last-child) {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        &__images{
+            display: flex;
+            width: 60%;
+            position: relative;
+
+            img{
+                max-width: 370px;
+            }
+            .section-2--img{
+                margin-top: 40px;
+                position: relative;
+                z-index: 1;
+            }
+
+            .section-2--img-absolute{
+                position: absolute;
+                width: 100%;
+                max-width: 378px;
+                top: -160px;
+                right: 60px;
+                z-index: 1;
+            }
+
+            .section-2--lines{
+                position: absolute;
+                top: 50px;
+                right: 127px;
+                z-index: 0;
+            }
+        }
+}

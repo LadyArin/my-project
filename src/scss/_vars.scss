@@ -1,7 +1,7 @@
 
 :root {
   // base
-  --font-family: "Prompt", sans-serif;
+  --font-family: "DM+Sans", sans-serif;
   --content-width: 100%;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
@@ -24,7 +24,7 @@ $c100: #222939;
 $c200: #E9E9DB;
 $c300: #bcbcbc;
 
-$default: #fff;
+$default: #202217;
 
 //effect
 %border-ef {
@@ -70,11 +70,11 @@ $default: #fff;
 }
 
 //container
-.box-container {
-  width: 925px;
-  float: right;
-  padding: 0 15px;
-}
+// .box-container {
+//   width: 925px;
+//   float: right;
+//   padding: 0 15px;
+// }
 
 //hover
 

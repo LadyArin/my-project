@@ -44,8 +44,8 @@ button{
   font-weight: var(--font-r);
   font-size: 16px;
   line-height: 20px;
-  color: $default;
-  background: $c100;
+  color: #202217;
+  background:#E9E9DB;
 }
 
 img {
@@ -90,6 +90,6 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 0  15px;
+  // padding: 0 15px;
   max-width: 1250px;
 }
