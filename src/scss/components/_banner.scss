@@ -1,12 +1,16 @@
 .main-banner{
     display: flex;
     justify-content: flex-end;
-    position: relative;
+
+    &__block{
+        position: relative;
+        margin-left: 275px;
+    }
 
     &__img-text-top{
         position: absolute;
-        top: 30px;
-        left: 260px;
+        top: 5%;
+        left: -1%;
     }
 
     &__img-text-down{
@@ -17,8 +21,8 @@
 
     &__img-left{
         position: absolute;
-        top: -50px;
-        left: -135px;
+        bottom: 50px;
+        left: 0;
     }
 }
 
