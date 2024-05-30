@@ -35,6 +35,14 @@
 
 /* stylelint-disable */
 /* stylelint-disable */
+@font-face {
+  font-family: "Emilea";
+  src: url("Emilea.eot");
+  src: local("Emilea"), url("Emilea.eot?#iefix") format("embedded-opentype"), url("Emilea.woff2") format("woff2"), url("Emilea.woff") format("woff"), url("Emilea.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
